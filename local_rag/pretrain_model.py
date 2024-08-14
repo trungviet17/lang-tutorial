@@ -21,18 +21,16 @@ class Pretrain_model:
                     )   
         
         self.model_config =transformers.AutoConfig.from_pretrained(
-                        model_id,
-                        token = HUGGINGFACE_API
+                        model_id
                     )
 
-        self.tokenizer  = transformers.AutoTokenizer.from_pretrained(model_id, token = HUGGINGFACE_API)
+        self.tokenizer  = transformers.AutoTokenizer.from_pretrained(model_id)
         self.model = transformers.AutoModelForCausalLM.from_pretrained(
                     model_id,
                     trust_remote_code=True,
                     config=self.model_config,
                     quantization_config=self.bnb_config,
-                    device_map='auto',
-                    token = HUGGINGFACE_API
+                    device_map='auto'
                 )
     
 
