@@ -1,84 +1,38 @@
-# ChatUET
-This repository was created with the aim of applying techniques to build a RAG system from scratch through a question-answering chatbot project related to information about the University of Engineering and Technology - Vietnam National University, Hanoi
-
-## Getting Started
-
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
-
-### Prerequisites
-
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
-- [ ] This is an unchecked checkbox
-- [x] This is a checked checkbox
-
-### Installing
-
-A step by step series of examples that tell you how to get a development
-environment running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+# Introduction 
+This repository was created for the purpose of noting and implementing RAG techniques through various courses and related papers. The code snippets are primarily used to illustrate the theory or to reimplement a paper related to RAG systems.
 
 
+# Setup 
+
+To be able to run the code, you need to install the necessary libraries and set up the API key according to the following instructions: 
 
 
+```
+git clone https://github.com/trungviet17/simple-rag
+cd simple-rag
+pip install -r requirements.txt
 
-## Authors
+```
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+Initialize the .env file and add the necessary API keys as follows:
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+```
+HUGGING_FACE_API = 
+GEMINI_API_KEY = 
+LANGCHAIN_TRACING_V2 = 
+LANGCHAIN_ENDPOINT = 
+LANGCHAIN_API_KEY = 
 
-## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
+```
 
-## Acknowledgments
+# Content 
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+## RAG From Scratch 
+This is my note from the Langchain RAG-from-scratch course. The course provides an overview of some basic and advanced techniques to improve the RAG process
+
+
+<p align="center">
+    <img src="doc/image/overview-rag.png" alt="basic-pipeline" width="400"/>
+</p>
+
