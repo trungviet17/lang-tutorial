@@ -2,4 +2,6 @@ rag
 models
 vectorstores
 .env
-
+*.sqlite
+*.db
+__pycache__
