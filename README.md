@@ -1,5 +1,5 @@
 # Introduction 
-This repository was created for the purpose of noting and implementing RAG techniques through various courses and related papers. The code snippets are primarily used to illustrate the theory or to reimplement a paper related to RAG systems.
+This is a tutorial on building and developing Agent/RAG and other techniques using Langchain / Langgraph 
 
 
 # Setup 
@@ -28,7 +28,7 @@ LANGCHAIN_API_KEY =
 
 # Content 
 
-## RAG From Scratch 
+## RAG From Scratch - langchain
 This is my note from the Langchain RAG-from-scratch course. The course provides an overview of some basic and advanced techniques to improve the RAG process
 
 
