@@ -5,3 +5,4 @@ vectorstores
 *.sqlite
 *.db
 __pycache__
+lang-env/
